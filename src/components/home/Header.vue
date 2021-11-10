@@ -5,14 +5,16 @@
         <img width="350" src="../../assets/phone.png" />
       </div>
       <div class="column">
-        <h1 class="title">A new kind of operating system</h1>
+        <h1 class="title">daphne</h1>
         <p>
           Daphne is a hobby operating system built from scratch, with the goal
           of eventually running on ARM devices.
         </p>
-        <a class="button is-primary" href="https://github.com/synthels/daphne/releases">Download latest</a>
+        <a class="button" href="https://github.com/synthels/daphne/releases"
+          >Download latest</a
+        >
         <a
-          class="button is-primary"
+          class="button"
           id="button-github"
           target="_blank"
           rel="noopener noreferrer"
@@ -94,7 +96,7 @@ p {
 
 @media screen and (max-width: 1080px) {
   .header {
-    margin-top: 0;
+    margin-top: -15px;
   }
 
   .column {

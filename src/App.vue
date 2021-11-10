@@ -1,16 +1,16 @@
 <template>
-  <Home/>
+  <Home />
 </template>
 
 <script>
-import Home from './components/home/Home.vue'
+import Home from "./components/home/Home.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Home
-  }
-}
+    Home,
+  },
+};
 </script>
 
 <style>
@@ -44,5 +44,50 @@ body {
 
 .title {
   color: white !important;
+}
+
+.card {
+  border-radius: 5px;
+  background: var(--dark);
+  color: white;
+  padding: 20px 30px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -5px, 0px);
+}
+
+.col-ml {
+  margin-left: 0.75rem !important;
+}
+
+.col-mr {
+  margin-right: 0.75rem !important;
+}
+
+@media screen and (max-width: 1080px) {
+  .col-ml {
+    margin-left: 0 !important;
+  }
+
+  .col-mr {
+    margin-right: 0 !important;
+  }
+}
+
+.button {
+  background-color: var(--brand);
+  border-color: var(--brand);
+  color: white;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--brand);
+  border-color: var(--brand);
+  color: white;
 }
 </style>

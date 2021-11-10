@@ -19,14 +19,24 @@
     <div id="navbar" class="navbar-menu">
       <div class="navbar-start">
         <a href="/" class="navbar-item">Home</a>
-        <a href="https://github.com/synthels/daphne/graphs/contributors" class="navbar-item">Developers</a>
-        <a href="https://github.com/synthels/daphne/fork" class="navbar-item">Fork on Github</a>
+        <a
+          href="https://github.com/synthels/daphne/graphs/contributors"
+          class="navbar-item"
+          >Developers</a
+        >
+        <a href="https://github.com/synthels/daphne/fork" class="navbar-item"
+          >Fork on Github</a
+        >
       </div>
 
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-primary" style="background-color: #738adb" href="https://discord.gg/Mx8vu6c4U6">
+            <a
+              class="button is-primary"
+              style="background-color: #738adb"
+              href="https://discord.gg/Mx8vu6c4U6"
+            >
               <strong><span class="fab fa-discord" /> Discord server</strong>
             </a>
           </div>
@@ -77,7 +87,9 @@ export default {
 }
 
 .navbar-item:hover,
-.navbar-link:hover {
+.navbar-link:hover,
+.navbar-item:focus,
+.navbar-link:focus {
   color: var(--brand);
   background-color: transparent;
 }
