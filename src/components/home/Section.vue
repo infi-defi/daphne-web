@@ -58,7 +58,7 @@ svg {
 .content {
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 70px;
 }
 
 .divider {
